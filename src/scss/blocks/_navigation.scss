@@ -1,0 +1,41 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation-wrapper {
+    display: flex;
+    height: 128px;
+    align-items: center;}
+
+.navigation__item {
+    margin-right: 40px;
+    &:last-child {
+        margin-right: 0;
+    }
+
+}
+.navigation__link {
+    color: rgba(11,12,17,0.9);
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 5.58px;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+}
+
+.base {
+    background-color: rgb(136, 195, 171);
+   
+    position: absolute;
+    left: 314px;
+    top: 127px;
+    width: 1016px;
+    height: 572px;
+    z-index: 150;
+  }
+  

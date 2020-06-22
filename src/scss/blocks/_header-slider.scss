@@ -1,0 +1,129 @@
+.slide-wrapper {
+    position: relative;
+}
+.slide-item {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+
+
+.slide-item__desc {
+    width: 500px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slide-item__heading {
+    color: #0b0c11;
+    font-family: 'Playfair Display', serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 64px;
+
+    span {
+        display: block;
+        color: rgba(93, 168, 239, 0.9);
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 1;
+        text-transform: uppercase;
+        font-family: 'League Spartan', sans-serif;
+        letter-spacing: 5.4px;
+        
+        margin-bottom: 20px;
+
+    }
+}
+.slide-item__text {
+    width: 390px;
+    color: #8f8f8f;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+    font-family: 'Poppins', sans-serif;
+    p {
+
+    }
+}
+
+.slide-item__img
+{
+box-shadow: -15.898px 25.441px 65px 0px rgba(11, 12, 17, 0.2);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 1016px;
+height: 572px;
+} 
+
+.slide-item__img-bg-1
+
+{
+    background-image: url('../img/img/img-header.jpg');
+}
+
+.slide-controls {
+    position: absolute;
+    width: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-controls__left {
+
+}
+.header-slide-left {
+
+}
+.slide-controls-number {
+    // margin-right: 18px;
+    // margin-left: 18px;
+    color: #262626;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+
+
+}
+.slide-controls-number__active {
+    color: #5da8ef;
+
+}
+.slide-controls-number__from {
+    color: #ebebeb;
+
+}
+.slide-controls-number__total {
+    color: #262626;
+}
+.slide-controls__right {
+
+}
+.slide-controls__left {
+
+}
+
+.header-social {
+    position: absolute;
+    right: -45px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-social__item {
+    margin-bottom: 34px;
+}
+.header-social__item:last-child {
+    margin-bottom: 0;
+}

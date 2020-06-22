@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Surfing-club</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Playfair+Display:wght@400;700&family=Poppins:wght@300&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="libs/bootstrap-reboot/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="fonts/league-spartan/league-spartan.css" />
 </head>
+
 <body>
-    <div> 13123</div>
+    <div class="container relative">
+        <nav class="navigation-wrapper">
+            <a href="#">
+                <div class="logo">
+                    <img width:"16px" src="img/logo/logo.svg" alt="">
+                </div>
+            </a>
+            <ul class="navigation">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="">Stories</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="">Evenys</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="">Places</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="">Boards</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="slide-wrapper">
+            <!-- slides -->
+
+            <div class="slide-item">
+                <div class="slide-item__desc">
+                    <h2 class="slide-item__heading">
+                        <span>Your</span>
+                        Beautiful Escape
+                    </h2>
+                    <div class="slide-item__text">
+                        <p>
+                            One of the greatest things about the sport of surfing is that you
+                            need only three things: your body, a surfboard, and a wave.
+                        </p>
+                    </div>
+                </div>
+                <div class="slide-item__img slide-item__img-bg-1"></div>
+            </div>
+
+            <!-- slides controls -->
+
+            <div class="slide-controls">
+                <a class="slide-controls__left" href="#">
+                    <img src="img/controls/header-slider-left.svg" alt="left" class="header-slide-left">
+                </a>
+
+                <div class="slide-controls-number">
+                    <span class="slide-controls-number__active">1</span>
+                    <span class="slide-controls-number__from">/</span>
+
+                    <span class="slide-controls-number__total">5</span>
+                </div>
+
+                <a class="slide-controls__right" href="#">
+                    <img src="img/controls/header-slider-right.svg" alt="right" class="header-slide-right">
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="site-desc">
+            <div class="site-desc__content"> First&nbsp;Surffing&nbsp;Magazine</div>
+        </div>
+
+        <div class="header-social">
+            <a href="#" class="header-social__item">
+                <img src="img/socials/social-tumblr.svg" alt="">
+            </a>
+            <a href="#" class="header-social__item">
+                <img src="img/socials/social-twitter.svg" alt="">
+            </a>
+            <a href="#" class="header-social__item">            
+                <img src="img/socials/social-vimeo.svg" alt="">
+            </a>
+        </div>
+    </div>
 </body>
-</html> 
+
+</html>

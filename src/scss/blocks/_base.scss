@@ -1,0 +1,23 @@
+body {
+background-image: url(../img/bg/bg-lines.png);
+background-size: initial;
+background-repeat: repeat-y;
+background-position: center;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1244px; 
+    padding: 0 10px;
+
+}
+
+.logo 
+{
+    margin-right: 190px;
+}
+.relative {
+    position: relative;
+}
