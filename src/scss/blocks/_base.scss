@@ -18,6 +18,55 @@ background-position: center;
 {
     margin-right: 190px;
 }
+
 .relative {
     position: relative;
+}
+
+.read-more-link, a.read-more-link {
+    color: #333333;
+    text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 5.4px;
+    position: relative;
+    padding-bottom: 10px;
+    display: inline-block;
+
+    &::after {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+        height: 2px;
+        background-color: #5da8ef;
+        opacity: .7;
+    }
+
+}
+.title {
+color: #333;
+font-family: 'Playfair Display', serif;
+font-size: 42px;
+font-weight: 700;
+line-height: 1.2;
+letter-spacing: 0.42px;
+text-align: center;
+
+}
+.subtitle {
+
+    display: block;
+    color: #5da8ef;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 5.4px;
+
 }
