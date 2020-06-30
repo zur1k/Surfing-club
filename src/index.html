@@ -17,11 +17,14 @@
   <!-- container -->
   <header class="container header">
     <nav class="navigation-wrapper">
-      <a href="#">
-        <div class="logo">
+
+      <div class="nav-logo-wrapper">
+        <a href="#" class="logo">
           <img width:"16px" src="img/logo/logo.svg" alt="">
-        </div>
-      </a>
+        </a>
+      </div>
+      
+    
       <ul class="navigation">
         <li class="navigation__item">
           <a class="navigation__link" href="">Stories</a>
@@ -81,17 +84,21 @@
       <div class="site-desc__content">First&nbsp;Surffing&nbsp;Magazine</div>
     </div>
 
-    <div class="header-social">
-      <a href="#" class="header-social__item">
-        <img src="img/socials/social-tumblr.svg" alt="" />
-      </a>
-      <a href="#" class="header-social__item">
-        <img src="img/socials/social-twitter.svg" alt="" />
-      </a>
-      <a href="#" class="header-social__item">
-        <img src="img/socials/social-vimeo.svg" alt="" />
-      </a>
+    <div class="header-social-wrapper">
+      <div class="social social--vertical">
+        <a href="#" class="social__item">
+          <img src="img/socials/social-tumblr.svg" alt="" />
+        </a>
+        <a href="#" class="social__item">
+          <img src="img/socials/social-twitter.svg" alt="" />
+        </a>
+        <a href="#" class="social__item">
+          <img src="img/socials/social-vimeo.svg" alt="" />
+        </a>
+      </div>
+
     </div>
+  
   </header>
 
   <!-- quote -->
@@ -131,6 +138,7 @@
     </div>
   </section>
   <!-- shop -->
+ 
   <section class="shop">
     <div class="container">
 
@@ -139,7 +147,7 @@
         Surfboards
       </h2>
       <div class="shop-slider">
-        <!-- board -->
+ 
         <div class="board">
 
           <div class="board__img-holder">
@@ -156,12 +164,10 @@
             </div>
           </div>
 
-        </div>
-        <!-- // board  -->
+        </div>   
 
-        <!-- board -->
+   
         <div class="board">
-
           <div class="board__img-holder">
             <img class="board__img" src="img/boards/board-2.png" alt="surfing board">
           </div>
@@ -176,10 +182,9 @@
             </div>
           </div>
 
-        </div>
-        <!-- // board  -->
-        
-        <!-- board -->
+        </div> 
+
+    
         <div class="board">
 
           <div class="board__img-holder">
@@ -197,13 +202,136 @@
           </div>
 
         </div>
-        <!-- // board  -->
+    
       </div>
 
       <div class="shop-link-wrapper">
         <a href="#" class="read-more-link">Show all</a>
       </div>
 
+    </div>
+  </section>
+  
+  <!-- article 01 -->
+  <section class="container">
+    <article class="article article--even">
+
+
+      <div class="article__desc">
+        <h2 class="article__title" data-number="01">Surf Training</h2>
+        <div class="article__text">
+          <p>By better understanding the various aspects of surfing, By better understanding the various aspects of
+            surfing, you will improve faster and have more fun in the water.</p>
+          <a href="#" class="read-more-link">Read More</a>
+        </div>
+      </div>
+
+      <div class="article__preview">
+        <img src="img/img/img-4.jpg" alt="Surf Training">
+
+        <div class="article__preview-desc">
+          <div class="article__preview-desc-content">Surf&nbsp;Camps</div>
+        </div>
+
+      </div>
+
+    </article>
+  </section>
+  <!--  article 02 -->
+  <section class="container">
+    <article class="article article--odd">
+
+
+      <div class="article__desc">
+        <h2 class="article__title" data-number="02">Point Break</h2>
+        <div class="article__text">
+          <p>By better understanding the various aspects of By better understanding the various aspects of surfing, By
+            better understanding the various aspects of surfing, you will improve faster and have more fun in the water.
+          </p>
+          <a href="#" class="read-more-link">Read More</a>
+        </div>
+      </div>
+
+      <div class="article__preview">
+        <img src="img/img/img-5.jpg" alt="Surf Training">
+
+        <div class="article__preview-desc">
+          <div class="article__preview-desc-content">Surf&nbsp;Camps</div>
+        </div>
+
+      </div>
+
+    </article>
+  </section>
+  <!-- subscribe  -->
+
+  <section class="subscribe-wrapper">
+    <div class="subscribe">
+
+      <h2 class="title">Join the Club</h2>
+      <div class="title-desc">
+        By better understanding the various aspects of surfing, you will improve faster
+        and have more fun in the water.
+      </div>
+      <form action="" class="subscribe-form">
+        <input type="text" placeholder="Your E-mail" class="subscribe__input">
+        <input type="submit" class="subscribe__submit">
+      </form>
+    </div>
+  </section>
+  <!-- camp -->
+  <section class="camp">
+    <div class="camp__img" style="background-image: url(./img/img/img-6.jpg);"></div>
+      <div class="container flex-end">
+        <div class="camp__desc">
+          <div class="camp__label">Our Camp</div>
+          <div class="camp__address">
+            CA 91932, USA<br>
+            Imperial Beach<br>
+            560 Silver Strand Blvd
+          </div>
+          <a href="#" class="read-more-link">Get in touch</a>
+        </div>
+      </div>
+    
+  </section>
+  <!-- footer -->
+  <section class="footer">
+    <div class="container flex-column-center">
+      <div class="footer-logo-wrapper">
+        <a href="#" class="logo">
+          <img width:"16px" src="img/logo/logo.svg" alt="">
+        </a>
+      </div>
+    <div class="footer-nav-wrapper">
+      <ul class="navigation">
+        <li class="navigation__item">
+          <a class="navigation__link" href="">Stories</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="">Evenys</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="">Places</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="">Boards</a>
+        </li>
+      </ul>
+    </div>
+     
+
+      <div class="social">
+        <a href="#" class="social__item">
+          <img src="img/socials/social-tumblr.svg" alt="" />
+        </a>
+        <a href="#" class="social__item">
+          <img src="img/socials/social-twitter.svg" alt="" />
+        </a>
+        <a href="#" class="social__item">
+          <img src="img/socials/social-vimeo.svg" alt="" />
+        </a>
+      </div>
     </div>
   </section>
 </body>

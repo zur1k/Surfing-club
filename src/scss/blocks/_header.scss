@@ -9,6 +9,13 @@
     right: -50px;
     top: 58px; 
 
+    @media (max-width:1400px)  {right: 30px;top: 170px;
+        .site-desc__content {
+            color: #fff;        
+        }
+       
+    }
+
 }
 .site-desc__content {
     color: rgba(11, 12, 17,0.2);
@@ -25,3 +32,13 @@
     transform-origin: left top;
 }
 
+.header-social-wrapper {
+    width: 20px;
+    position: absolute;
+    right: -45px;
+    bottom: 0;
+
+    @media (max-width:1400px)  {right: 30px;bottom: 30px;
+        
+    }
+}

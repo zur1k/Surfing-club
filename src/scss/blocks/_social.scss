@@ -1,0 +1,27 @@
+.social {
+
+    display: flex;
+    justify-content: center;
+
+&--vertical {
+    flex-direction: column;
+    width: 20px;
+    align-items: center;
+}
+}
+.social__item {
+  margin-left: 15px;
+  margin-right: 15px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    .social--vertical & { 
+        margin-bottom: 35px;
+        margin-left: 0;
+        margin-right: 0;
+        &:last-child {
+            margin-bottom: 0 ;
+        }
+    }
+}
