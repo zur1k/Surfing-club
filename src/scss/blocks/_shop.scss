@@ -12,22 +12,63 @@
     left: 0;
     z-index: -1;
     top: -330px;
-    background-image: url('../img/bg/bg-water.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: url('../img/bg/bg-lines.png'), url('../img/bg/bg-water.jpg'),  ;
+    background-repeat:repeat-y, no-repeat;
+    background-position: center, center;
+    background-size:auto, cover;
   }
 }
+.shop-slider-wrapper {
+  height: 565px;
+  margin-bottom: 80px;
+  position: relative;
+}
+.shop-slider-holder {
+  position: absolute;
+  left: 0;
+  right: -85px;
+
+}
+
 .shop-slider {
   margin-top: 50px;
   margin-bottom: 80px;
   display: flex;
   justify-content: space-between;
 }
-
-.board {
+#shopSlider.owl-carousel .owl-item img { 
+  width: auto;
+}
+.shop-slider-controls {
   position: relative;
-  width: 350px;
+}
+.shop-slider-arrow {
+  width: 40px;
+  height: 48px;
+  padding: 15px;
+ 
+  position: absolute;
+  cursor: pointer;
+  bottom: calc(120px + 80px);
+  z-index: 9;
+    img {
+      vertical-align: top;
+    };
+}
+.shop-slider-arrow--left {
+ 
+  left: -70px;
+  transform: translate(-100%,0);   
+
+}
+.shop-slider-arrow--right {
+  right: -70px;
+  transform: translate(100%,0);
+}
+.board {
+  margin-top: 130px;
+  position: relative;
+  width: 435px;
   height: 435px;
 }
 .board__img-holder {

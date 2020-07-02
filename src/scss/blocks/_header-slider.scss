@@ -1,14 +1,23 @@
 .slide-wrapper {
     position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 95px;
+}
+
+#headerSlider.owl-carousel .owl-stage-outer {
+    overflow: visible;
+
 }
 .slide-item {
+    width: 100%;
     display: flex;
     position: relative;
     justify-content: flex-end;
 }
 
 
-.slide-item__desc {
+.slide-item__desc { 
     width: 500px;
     position: absolute;
     left: 0;
@@ -73,6 +82,11 @@ height: 572px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 9;
+
+     img {
+         vertical-align: middle;
+     }
 }
 
 .slide-controls__left {
