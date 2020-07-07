@@ -4,23 +4,23 @@ body {
   background-repeat: repeat-y;
   background-position: center;
   background-color: #fefefd;
+}
 
+img {
+max-width: 100%;  
+height: auto;
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1224px;
-  padding: 0 10px;
-}
+  padding: 0 15px;
 
-.nav-logo-wrapper {
- margin-right: 190px;
-  // transform: translateY(-50%);
-  //   margin-right: 190px;
-  //   position: absolute;
-  //   left: 0;
-  //   top: 50%;  в случае если использовать абсолют на логотип 
+  @media (min-width: 1254px) {
+    max-width: 1224px;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .relative {
@@ -110,4 +110,3 @@ a.read-more-link {
   flex-direction: column;
   align-items: center;
 }
-
