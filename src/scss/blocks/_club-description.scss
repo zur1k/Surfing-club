@@ -1,49 +1,82 @@
 .club-description {
+  padding-top: 55px;
+  padding-bottom: 47px;
 
+  @media (min-width: 1254px) {
     padding-top: 110px;
     padding-bottom: 95px;
+  }
 }
 .club-description-wrapper {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
-.club-description-video
-{
-    position: absolute;
-    right: 0;
-    top: 43px;
-    z-index: 1;
+.club-description__img {
+  width: 70%;
+  @media (min-width: 1254px) {
+    width: auto;
+  }
+}
 
+.club-description-video {
+  position: absolute;
+  right: 0;
+  top: 43px;
+  z-index: 1;
+  width: 60%;
+
+  @media (min-width: 1254px) {
+    width: auto;
+  }
 }
 .club-description-video__control {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 17px;
+  height: 17px;
+  background-color: #5da8ef;
+  box-shadow: -2px -2px 36px rgba(0, 0, 0, 0.13);
+  border-radius: 100%;
+  @media (min-width: 1254px) {
+    width: 34px;
+    height: 34px;
+  }
+  & img {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
-    width: 68px;
-    height: 68px;
-    background-color: #5da8ef;
-    box-shadow: -2px -2px 36px rgba(0,0,0,0.13);
-    border-radius: 100%;
-    & img {
+    transform: translate(-35%, -50%);
+    width: 35%;
 
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-35%,-50%);
+    @media (min-width: 1254px) {
+      width: auto;
     }
+  }
+}
+.club-description-text {
+  margin-top: 90px;
+  //   margin-left: 115px;
+  //   width: 340px;
+  margin-bottom: 0;
+  max-width: 450px;
+  @extend .desc-text;
+  @media (min-width: 855px) and (max-width: 1254px) {
+    max-width: 300px;
+  }
 
-}
-.club-description-text { 
-    margin-top: 60px;
-    margin-left: 115px;
+  @media (min-width: 1254px) {
     width: 340px;
-    margin-bottom: 45px;
-   @extend .desc-text
-}
-.club-description__link
-{
     margin-left: 115px;
+    margin-top: 60px;
+    margin-bottom: 45px;
+  }
+}
+.club-description__link {
+  @media (min-width: 1254px) {
+    margin-left: 115px;
+  }
 }

@@ -12,6 +12,14 @@ $(document).ready(function () {
         smartSpeed: 500,
         autoplayTimeout: 8000,
         autoplaySpeed: 4000,
+        responsive: {
+            0 : { items: 1,
+            },
+            1200 : {
+                items: 3,
+            }
+
+        }
     
     });
 
