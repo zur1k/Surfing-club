@@ -8,6 +8,7 @@
     display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
+    flex-direction: row;
   }
 }
 
@@ -22,6 +23,8 @@
   padding-left: 0;
   padding-right: 0;
   padding-top: 20px;
+  @media (min-width: 1254px) {
+  padding-right: 15px;  }
 
   @media (min-width: 768px) {
     width: 462px;
@@ -54,7 +57,7 @@
   margin-bottom: 45px;
 
   @media (min-width: 1254px) {
-    font-size: 130px;
+    font-size: 42px;
     margin-bottom: 45px;
   }
 
@@ -81,7 +84,7 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: -5px;
+    bottom: -25px;
     width: 23px;
     height: 2px;
     background-color: #5da8ef;
